@@ -4,7 +4,8 @@
   "description": "Novo repositorio do curso .dev que servirá de testes para estudo",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "vercel-build": "npm run prepare && next build"
   },
   "author": "Pedro",
   "license": "MIT",
